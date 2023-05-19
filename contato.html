@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contato</title>
+    <link rel="icon" href="./img/icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+    <style>
+        body{
+            background-color: rgb(254,254,90);
+            width: 100%;
+        }
+        aside {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        ul {
+            list-style: none;
+        }
+        li {
+            font-size: 30px;
+            width: auto;
+            margin-bottom: 20px;
+            font-family: 'Arbutus Slab';
+            padding: 10px;
+            background-color: rgb(247, 254, 102);
+            text-align: center;
+            color: rgb(31,33,32);
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(9, 0, 0, 0.675);
+            overflow: hidden;
+            text-shadow:
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+
+        }
+        li a{
+            text-decoration: none;
+        }
+        li a:visited{
+            color: rgb(31,33,32);
+        }
+        li:hover{
+            
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+        }
+        .zap a:hover {
+            color:rgb(71, 200, 86);
+            letter-spacing: 2px;
+        }
+       
+        .email:hover{
+            color: rgb(0, 71, 133);
+            letter-spacing: 2px;
+        }
+        .logozap{
+            width: 40px;
+            position:static;
+            float: left;
+        }
+        .home{
+            margin: 15px auto ;
+            width: 50%;
+            background-color: rgb(254,254,90);
+            border-radius: 0px;
+            box-shadow:none;
+            overflow:auto;
+        }
+        .home:hover{
+            border-radius: 0px;
+            box-shadow:none;
+        }
+        .logo{
+            height: 200px;
+            
+        }
+        .logoemail{
+            width: 40px;
+            position:static;
+            float: left;
+            margin-right: 15px;
+        }
+        @media (max-width: 768px) {
+            li:hover{
+                transform: none;
+            }
+            .logoemail, .logozap{
+                display: none;
+            }
+            .email:hover{
+                letter-spacing: normal;
+            }
+            .zap a:hover{
+                letter-spacing: normal;
+            }
+            ul li {
+                width: 80%;
+                margin: 5px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+	<aside>
+		<ul>
+            <li class="home"><a href="./index.html"><img src="/img/icon.png" alt="" class="logo"></a></li>
+			<li class="zap">
+                <img src="./img/WhatsApp.svg.webp" alt="" class="logozap">
+                <a href="https://wa.me/message/NJLZNOKF3RJ5K1" target="_blank">(15) 3552-1708 - Compras</a></li>
+			<li class="zap">
+                <img src="./img/WhatsApp.svg.webp" alt="" class="logozap">
+                <a href="" target="_blank"> (15) 99849-3865 - Vendas</a></li>
+			<li class="email">
+                <img src="./img/image.png" alt="" class="logoemail">
+                embalagenscoelho@outlook.com</li>
+            <li class="email">
+                <img src="./img/image.png" alt="" class="logoemail">
+                coelhoembalagens@outlook.com</li>
+		</ul>
+	</aside>
+</body>
+</html>

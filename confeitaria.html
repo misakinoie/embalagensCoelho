@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeitaria</title>
+    <link rel="icon" href="./img/icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+    <style>
+
+        body{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(254,254,90);
+}
+header nav li a{
+    text-transform: uppercase;
+    color: rgb(31,33,32);
+    text-decoration:none;
+    font-family: 'Arbutus Slab';
+    display:block;
+    padding: 10px;
+
+}
+header nav li a:hover{
+    color: rgba(84, 83, 83, 0.9);
+    letter-spacing: 5px;
+}
+nav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+ }
+header nav li{
+    font-size: 15px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(9, 0, 0, 0.675);
+    overflow: hidden;
+}
+header nav li:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+}
+header nav ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+header nav{
+    background-color: rgb(254,254,90);
+    margin-top: 50px;
+    position: relative;
+    padding: 0px;
+    height: 50px;
+}
+#title, #more{
+    font-family:'Arbutus Slab';
+    font-size: 40px;
+    text-align: center;
+    color: rgb(31,33,32);
+    margin-top: 50px;
+}
+#title:hover{
+    color: rgba(2, 161, 211, 0.924);
+    letter-spacing: 5px;
+}
+#more:hover{
+    color: rgba(2, 161, 211, 0.924);
+    letter-spacing: 5px;
+}
+#more a{
+    text-decoration: none;
+    color: inherit;
+}
+#more:visited{
+    color: inherit;
+    text-decoration: none;
+}
+.menuhorizontal{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menuhorizontal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menuhorizontal li {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(9, 0, 0, 0.675);
+    overflow: hidden;
+}
+.menuhorizontal li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+}
+.menuhorizontal img{
+    width: 100%;
+    height: auto;
+}
+.menuhorizontal h2{
+    color: rgb(84,84,86);
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Arbutus Slab';
+    letter-spacing: 2px;
+}
+.menuhorizontal h2:hover{
+    color: rgba(2, 161, 211, 0.924);
+    letter-spacing: 5px;
+}
+.menuhorizontal p {
+    font-family:'Arbutus Slab';
+    color: rgb(84,84,86);
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 20px;
+}
+.menuhorizontal a{
+    text-decoration:none;
+}
+#produt img{
+    height: 350px;
+}
+@media (max-width: 768px) {
+    #title{
+      display: none;
+    }
+    .menuhorizontal li {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+      }
+    header nav ul{
+        position:absolute;
+        margin: auto;
+        width: 80%;
+    }
+    #produt img{
+    height: auto;
+}
+  } 
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutus.html">Sobre nós</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="title">
+            <h1>Confeitaria</h1>
+        </div>
+        <section>
+
+            <div class="menuhorizontal">
+                <ul id="produt">
+                    <li>
+                        <img src="https://images.tcdn.com.br/img/img_prod/746520/cobertura_fracionada_sabor_chocolate_ao_leite_gotas_2_05kg_sicao_mais_5789099_1_f656e500a40e178de7885978d8fa9e7b.jpg" alt="">
+                        <a href="https://wa.me/p/6287995621263376/551535521708" target="_blank"><h2>Chocolate Sicao Fracionado ao Leite 2,05 kg</h2></a>
+                        
+                    </li>   
+                    <li> 
+                        <img src="https://images.tcdn.com.br/img/img_prod/746520/chocolate_blend_gotas_melken_2_050kg_harald_5803832_1_66f177667a99024160f69cc609b30cac.jpg" alt="">
+                        <a href="https://wa.me/p/9118015658240591/551535521708" target="_blank"><h2>Melken Gotas de Chocolate Blend 2KG</h2></a>
+                        
+                    </li>
+                    <li>
+                        <img src="https://media.cotabest.com.br/media/sku/cobertura-de-chocolate-ao-leite-21kg-garoto-un-9cedb2a807.jpg" alt="">
+                        <a href="https://wa.me/p/6046677868782054/551535521708" target="_blank"><h2>Chocolate em Barra Garoto ao Leite 2KG</h2></a>
+                        
+                    </li>
+                    <li>
+                        <img src="https://a-static.mlcdn.com.br/1500x1500/cobertura-fracionada-sabor-ao-leite-formato-moeda-201kg-hershey-s/hersheys/4010901uni/d2527d2161dfbe4c996d5a316a270c0a.jpeg" alt="">
+                        <a href="https://wa.me/p/9459909210748779/551535521708" target="_blank"><h2>Chocolate Ao Leite Hershey's Professional Moeda 2,01kg</h2></a>
+                        
+                    </li>
+                    <li>
+                        <img src="https://images.tcdn.com.br/img/img_prod/746520/cobertura_fracionada_ao_leite_2_1kg_c_3_top_harald_5804713_1_2ffe4d9e376addd1564ffb45217ed823.jpg" alt="">
+                        <a href="https://wa.me/p/6125355220875348/551535521708" target="_blank"><h2>Chocolate Harald Top Cobertura Fracionado Ao Leite 2,05KG</h2></a>
+                        
+                    </li>
+                    <li>
+                        <img src="https://cdn.spiritshop.com.br/salware/image/cache/data/up_system/product-50822/GOTAS_1KG_-1500x1500.jpg" alt="">
+                        <a href="https://wa.me/p/5387836881318848/551535521708" target="_blank"><h2>Chocolate em Gotas Ao Leite 1KG Salware</h2></a>
+                        
+                    </li>
+                    <li>
+                        <img src="https://images.rappi.com.br/products/66d112d9-1c37-44a4-8229-793749305712.jpeg" alt="">
+                        <a href="https://wa.me/p/6090445011063134/551535521708" target="_blank"><h2>Chocolate Dr. Oetker Chocolate ao Leite 350g</h2></a>
+                        
+                    </li>
+                    <li>
+                        <img src="https://images.tcdn.com.br/img/img_prod/746520/2_cobertura_mavalerio_chocolate_ao_leite_gotas_2_1kg_1_branco_5801308_1_e38761e047205632db2022e093b9956f.jpg" alt="">
+                        <a href="https://wa.me/p/6557341834316488/551535521708" target="_blank"><h2>Chocolate Sicao Nobre Branco 2,05KG</h2></a>
+                        
+                    </li>
+                    <li>
+                        <img src="https://images.tcdn.com.br/img/img_prod/746520/chocolate_sicao_branco_gotas_2_05kg_sicao_nobre_5789177_1_014a11805964119f0d98fd2a12009810.jpg" alt="">
+                        <a href="https://wa.me/p/9097901936918701/551535521708" target="_blank"><h2>Cx Chocolate Garoto 250g</h2></a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div id="more">
+            <h1><a href="https://wa.me/c/551535521708" target="_blank">Ver todos os produtos</a></h1>
+        </div>
+    </main>
+</body>
